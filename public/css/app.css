@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'pathway';
+  src: url(../fonts/PathwayExtreme-VariableFont_opsz\,wdth\,wght.ttf);
+}
+body{
+  font-family: 'pathway';
+}
+/* HEADER */
+header{
+  height: 120px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: space-evenly;
+  
+  
+}
+.menu div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+}
+.menu div .img{
+  height: 60px;
+  width: 60px;
+}
+/* fin header */
+
+/* section 1 */
+.sec-1{
+  height: 300px;
+  background-color: rgb(51, 77, 92);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.etape{
+  width: 60%;
+}
+.etape h1{
+  font-size: 60px;
+}
+.etape p{
+  font-size: 40px;
+}
+.sec-1img{
+ 
+}
+.sec-1img img{
+  height: 200px;
+  width: 200px;
+}
+/* sec-1 fin */
+
+/* sec-2 */
+.sec-2{
+height: 600px;
+
+}
+.sec-2-div-1{
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-2-div-1 span{
+  background-color:rgb(51, 77, 92) ;
+  color: white;
+  padding: 15px 50px;
+  font-size: 60px;
+}
+.sec-2-div-2{
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sec-2-div-2-p{
+  width: 50%;
+  justify-content: center;
+}
+.sec-2-div-2-img{
+  margin-top: 70px;
+}
+/* section-2 fin */
+.sec-3{
+height: 250px;
+background-color:rgb(234, 227, 214);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.sec-3 div{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sec-3 div img{
+  height: 70px;
+  width: 70px;
+}
+/* section 3 fin */
+
+/* section 4 */
+.sec-4{
+  height: 600px;
+  
+  }
+  .sec-4-div-1{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-4-div-1 span{
+    background-color:rgb(51, 77, 92) ;
+    color: white;
+    padding: 15px 50px;
+    font-size: 60px;
+  }
+  .sec-4-div-2{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sec-4-div-2-p{
+    width: 50%;
+    justify-content: center;
+  }
+  .sec-4-div-2-img{
+    margin-top: 70px;
+  }
+  /* fin section 4 */
+
+  /* section 5 */
+  .sec-5{
+    height: 300px;
+    background-color:rgb(234, 227, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .sec-5 div{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sec-5 div img{
+    height: 80px;
+    width: 80px;
+  }
+  .carte{
+    align-self: flex-end;
+  }
+/* section 5 fin */
+
+/* section 6 */
+.sec-6{
+  height: 600px;
+  
+  }
+  .sec-6-div-1{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-6-div-1 span{
+    background-color:rgb(51, 77, 92) ;
+    color: white;
+    padding: 15px 50px;
+    font-size: 60px;
+  }
+  .sec-6-div-2{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sec-6-div-2-p{
+    width: 50%;
+    justify-content: center;
+  }
+  .sec-6-div-2-img{
+    margin-top: 70px;
+  }
+  /* section 6 fin */
+  /* section 7 */
+  .sec-7{
+    height: 250px;
+    background-color:rgb(234, 227, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .sec-7 div{
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .sec-7 div img{
+      height: 70px;
+      width: 70px;
+    }
+    /* footer */
+    footer img{
+      height: 50px;
+      width: 50px;
+    }
+    footer{
+      display: flex;
+      justify-content: space-evenly;
+      height: 200px;
+      background-color: rgb(57, 58, 59);
+      color: white;
+    }
+    footer>div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }

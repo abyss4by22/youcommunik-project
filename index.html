@@ -14,7 +14,9 @@
     <div class="headerlogo">
       <img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="">
     </div>
-
+<div>
+  <img class="menu-hamburger" src="./public/img/menu-4-24.png" alt="">
+</div>
 
     <div class="menu">
       <div>
@@ -55,6 +57,17 @@
       </div>
     </div>
   </header>
+  <!-- hidden menu -->
+  <div class="hidden">
+    <ul>
+      <li><a href="./index.html"> Home</a></li>
+      <li><a href="#">Packages</a></li>
+      <li><a href="#">Outils</a></li>
+      <li><a href="#">Projets</a></li>
+      <li><a href="#">Temoignages</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
   <!-- section 1 -->
 
   <section class="sec-1">
@@ -85,7 +98,7 @@
   </section>
 
   <!-- section 3 -->
-  <section class="sec-7">
+  <section class="sec-3">
     <div>
       <img src="./public/img/Logo-logo.png" alt="">
       <span>logo</span>
@@ -209,6 +222,14 @@
       </div>
     </div>
   </footer>
+  <script>
+     const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".hidden")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+  </script>
 
 </body>
 
